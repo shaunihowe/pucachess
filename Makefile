@@ -2,7 +2,7 @@ BIN   = ./puca
 SRC   = src/puca.c
 
 CC     = cc
-COPTS  = -g -Wall -O3
+COPTS  = -g -O3
 LIBS   = -lpthread -lm
 
 install : all
